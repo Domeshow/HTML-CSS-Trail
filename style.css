@@ -1,6 +1,5 @@
 body {
     background-color: rgb(72, 72, 145);
-    text-align: center;
     color: #ffffff;
     font-family: roboto;
 }
@@ -8,7 +7,10 @@ body {
     font-size: 24px;
     font-weight: bold;
   }
-  
+#title, #description {
+
+    text-align: center;
+}
   #description {
     font-size: 18px;
     margin-bottom: 20px;
@@ -52,3 +54,9 @@ body {
     background-color: #45a049;
   }
   
+  form {
+    font-size: 1.2em;
+  }
+  input {
+    margin-top: 5px;
+  }
