@@ -4,3 +4,51 @@ body {
     color: #ffffff;
     font-family: roboto;
 }
+#title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #survey-form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  #survey-form input[type="text"], #survey-form input[type="email"], #survey-form input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  #survey-form select, #survey-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  #survey-form input[type="radio"], #survey-form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  #submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  #submit:hover {
+    background-color: #45a049;
+  }
+  
